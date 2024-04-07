@@ -1,18 +1,15 @@
 import React, { HTMLAttributes } from 'react';
+import { Background } from '../types';
 export interface ImageSectionProps extends Omit<HTMLAttributes<HTMLElement>, 'className'> {
     children: React.ReactNode;
     direction?: 'row' | 'row-reverse';
     layout?: 'half' | 'imageTwoThirds' | 'contentTwoThirds';
+    background?: Background;
 }
-declare const ImgColumn: React.FC<{
+export declare const ImageSection: React.FC<ImageSectionProps>;
+export declare const ImageSectionImage: React.FC<{
     children: React.ReactNode;
 }>;
-declare const ContentColumn: React.FC<{
+export declare const ImageSectionContent: React.FC<{
     children: React.ReactNode;
 }>;
-interface ImageSectionComponent extends React.FC<ImageSectionProps> {
-    ImgColumn: typeof ImgColumn;
-    ContentColumn: typeof ContentColumn;
-}
-declare const ImageSection: ImageSectionComponent;
-export default ImageSection;

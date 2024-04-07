@@ -1,10 +1,9 @@
-import React, { HTMLAttributes } from 'react';
+import React, { HTMLAttributes, ReactNode } from 'react';
 export interface HeroProps extends Omit<HTMLAttributes<HTMLElement>, 'className'> {
-    imageUrl: string;
+    image: ReactNode | string;
     heading: string;
     description: string;
-    buttonText: string;
-    buttonHandler?: () => void;
+    children?: ReactNode;
 }
 export declare const Hero: React.FC<HeroProps>;
 export default Hero;

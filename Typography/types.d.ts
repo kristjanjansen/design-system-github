@@ -1,8 +1,8 @@
 import React from 'react';
 export type HeadingVariant = 'display' | 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'leadtext' | 'subheadline';
 export type TextVariant = 'p' | 'line' | 'list';
-export type TextSize = 'tiny-400' | 'tiny-600' | 'small-400' | 'small-600' | 'default-400' | 'default-600' | 'large-400' | 'large-600';
-export type LabelSize = 'tiny-400' | 'tiny-600' | 'small-400' | 'small-600' | 'default-400' | 'default-600' | 'large-400' | 'large-600';
+export type TextSize = 'tiny' | 'small' | 'default' | 'large';
+export type LabelSize = 'tiny' | 'small' | 'default' | 'large';
 export type TypographySettings = {
     fontFamily: string;
     fontWeight: string | number;
@@ -22,6 +22,7 @@ export type HeadingProps = {
     italic?: boolean;
     underline?: boolean;
     weight?: '400' | '600';
+    uppercase?: boolean;
 };
 export type TextProps = {
     children: React.ReactNode;
@@ -33,11 +34,16 @@ export type TextProps = {
     italic?: boolean;
     underline?: boolean;
     weight?: '400' | '600';
+    uppercase?: boolean;
 };
 export type LabelProps = {
     id?: string;
-    size: LabelSize;
+    size?: LabelSize;
     children: React.ReactNode;
     className?: string;
+    italic?: boolean;
+    underline?: boolean;
+    weight?: '400' | '600';
+    uppercase?: boolean;
 };
 export type TypographyType = HeadingProps & TextProps & LabelProps;

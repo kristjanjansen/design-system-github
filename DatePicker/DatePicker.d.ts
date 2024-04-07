@@ -1,10 +1,12 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { AriaDatePickerProps } from 'react-aria';
 import { DateValue } from '@react-types/calendar';
+import { DescriptionSeverity } from '../types';
 export interface DatePickerProps extends AriaDatePickerProps<DateValue> {
-    className?: string;
-    icon?: ReactNode;
-    gaName?: string;
+    errorMessage?: string;
+    descriptionSeverity?: DescriptionSeverity;
+    labelSuffix?: string;
+    tooltipTrigger?: React.ReactNode;
 }
-declare const DatePicker: React.ForwardRefExoticComponent<DatePickerProps & React.RefAttributes<HTMLButtonElement>>;
+declare const DatePicker: React.ForwardRefExoticComponent<DatePickerProps & React.RefAttributes<HTMLDivElement>>;
 export default DatePicker;
