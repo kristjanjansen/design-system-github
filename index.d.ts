@@ -1,5 +1,6 @@
 export * from './Accordion';
 export * from './AccordionGroup';
+export * from './Autocomplete';
 export * from './Avatar';
 export * from './Banner';
 export * from './Breadcrumbs';
@@ -25,7 +26,6 @@ export * from './Popover';
 export * from './QuickLink';
 export * from './Radio';
 export * from './RadioGroup';
-export * from './SearchAutocomplete';
 export * from './Select';
 export * from './SelectListBox';
 export * from './SkipToContent';
