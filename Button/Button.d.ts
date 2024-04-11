@@ -11,6 +11,7 @@ export interface ButtonProps extends AriaButtonProps {
     tooltipWrapperClassName?: string;
     iconLeft?: ReactNode;
     iconRight?: ReactNode;
+    element?: 'button' | 'a';
 }
-export declare const Button: React.ForwardRefExoticComponent<ButtonProps & React.RefAttributes<HTMLButtonElement>>;
+export declare const Button: React.ForwardRefExoticComponent<ButtonProps & React.RefAttributes<HTMLButtonElement | HTMLAnchorElement>>;
 export default Button;

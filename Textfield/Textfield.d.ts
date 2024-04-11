@@ -11,6 +11,8 @@ export interface TextfieldProps extends Omit<AriaTextFieldProps, 'errorMessage'>
     showPasswordToggle?: boolean;
     passwordToggleAriaLabel?: string;
     title?: string;
+    linkTitle?: string;
+    linkUrl?: string;
 }
 export declare const Textfield: React.ForwardRefExoticComponent<TextfieldProps & React.RefAttributes<HTMLInputElement>>;
 export default Textfield;

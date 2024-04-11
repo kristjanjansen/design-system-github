@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 export interface BannerProps {
     title: string;
-    description: string;
+    description?: string;
     icon?: ReactNode;
     inverted?: boolean;
     children?: ReactNode;

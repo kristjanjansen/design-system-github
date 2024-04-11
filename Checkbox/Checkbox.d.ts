@@ -7,6 +7,8 @@ export interface CheckboxProps extends AriaCheckboxProps {
     children: ReactNode;
     descriptionSeverity?: DescriptionSeverity;
     suffix?: string;
+    linkTitle?: string;
+    linkUrl?: string;
 }
 declare const Checkbox: React.ForwardRefExoticComponent<CheckboxProps & React.RefAttributes<HTMLInputElement>>;
 export default Checkbox;
