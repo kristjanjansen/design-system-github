@@ -1,6 +1,6 @@
 {
   "name": "design-system",
-  "version": "0.1.7",
+  "version": "0.1.9",
   "publishConfig": {
     "registry": "https://nexus.energia.sise/repository/npm-private/"
   },
