@@ -1,5 +1,5 @@
 import React from 'react';
-import { AriaSelectOptions } from 'react-aria';
+import { AriaPopoverProps, AriaSelectOptions } from 'react-aria';
 import type { CollectionChildren } from '@react-types/shared';
 import type { DescriptionSeverity } from '../types';
 export interface SelectProps extends Omit<AriaSelectOptions<object>, 'errorMessage'> {
@@ -8,6 +8,7 @@ export interface SelectProps extends Omit<AriaSelectOptions<object>, 'errorMessa
     descriptionSeverity?: DescriptionSeverity;
     labelSuffix?: string;
     tooltipTrigger?: React.ReactNode;
+    isNonModal?: AriaPopoverProps['isNonModal'];
 }
 declare const Select: React.ForwardRefExoticComponent<SelectProps & React.RefAttributes<HTMLButtonElement>>;
 export default Select;

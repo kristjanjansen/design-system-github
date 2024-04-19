@@ -21,6 +21,7 @@ export * from './InfoHint';
 export * from './InputSlider';
 export * from './Link';
 export * from './Modal';
+export * from './Notification';
 export * from './PageTitle';
 export * from './Phone';
 export * from './Popover';
