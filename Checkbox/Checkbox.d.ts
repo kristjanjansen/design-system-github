@@ -1,11 +1,11 @@
-import React, { ReactNode } from 'react';
+import React from 'react';
 import { AriaCheckboxProps } from 'react-aria';
-import type { DescriptionSeverity } from '../types';
 export interface CheckboxProps extends AriaCheckboxProps {
+    value?: string;
     description?: string;
     errorMessage?: string;
-    children: ReactNode;
-    descriptionSeverity?: DescriptionSeverity;
+    children: React.ReactNode;
+    descriptionSeverity?: 'regular' | 'warning';
     suffix?: string;
     linkTitle?: string;
     linkUrl?: string;
