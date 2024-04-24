@@ -1,2 +1,2 @@
-"use client";import e from"react";var a="cards__YKFsj__0-1-13";const c=({className:c,children:r})=>e.createElement("div",{className:`${a} ${c||""}`},r);export{c as ComparisonCardGroup};
+"use client";import e from"react";var s="cards__YKFsj__0-1-18";const t=({className:t,children:a,style:c})=>e.createElement("div",{className:`${s} ${t||""}`,style:c},a);export{t as ComparisonCardGroup};
 //# sourceMappingURL=index.js.map

@@ -8,12 +8,14 @@ export interface ComparisonCardPriceProps {
     primaryDescription?: string;
     secondary?: boolean;
     secondaryTitle?: string;
+    secondaryInfoHint?: React.ReactNode;
     secondaryPrefix?: string;
     secondaryPrice?: string;
     secondarySuffix?: string;
     secondaryDescription?: string;
     tertiary?: boolean;
     tertiaryTitle?: string;
+    tertiaryInfoHint?: React.ReactNode;
     tertiaryPrefix?: string;
     tertiaryPrice?: string;
     tertiarySuffix?: string;
@@ -21,6 +23,6 @@ export interface ComparisonCardPriceProps {
     children?: React.ReactNode;
     notificationTitle?: string;
     notificationDescription?: string;
-    tooltiptrigger?: ReactNode;
+    notificationInfoHint?: ReactNode;
 }
 export declare const ComparisonCardPrice: React.FC<ComparisonCardPriceProps>;

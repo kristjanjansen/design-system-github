@@ -5,5 +5,6 @@ export interface BannerProps {
     icon?: ReactNode;
     inverted?: boolean;
     children?: ReactNode;
+    layout: 'column' | 'row';
 }
 export declare const Banner: React.FC<BannerProps>;

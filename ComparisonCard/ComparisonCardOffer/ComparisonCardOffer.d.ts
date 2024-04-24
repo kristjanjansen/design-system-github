@@ -3,7 +3,6 @@ export interface ComparisonCardOfferProps {
     type: string;
     title?: string;
     description?: string;
-    tooltiptrigger?: React.ReactNode;
-    infoHint?: string;
+    infoHint?: React.ReactNode;
 }
 export declare const ComparisonCardOffer: React.FC<ComparisonCardOfferProps>;

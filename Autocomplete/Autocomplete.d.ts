@@ -7,6 +7,8 @@ export interface AutocompleteProps<T> extends AriaComboBoxProps<T> {
     labelSuffix?: string;
     tooltipTrigger?: React.ReactNode;
     clearButtonAriaLabel?: string;
+    isOpen?: boolean;
+    isNonModal?: boolean;
 }
 declare const Autocomplete: <T extends object>(props: AutocompleteProps<T>) => React.JSX.Element;
 export default Autocomplete;

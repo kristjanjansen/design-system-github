@@ -3,6 +3,6 @@ export interface ComparisonCardParameterProps {
     type: string;
     title?: string;
     value?: string;
-    tooltipTrigger?: React.ReactNode;
+    infoHint?: React.ReactNode;
 }
 export declare const ComparisonCardParameter: React.FC<ComparisonCardParameterProps>;
