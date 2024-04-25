@@ -11,6 +11,7 @@ export * from './CardIcon';
 export * from './Checkbox';
 export * from './CheckboxGroup';
 export * from './Choice';
+export * from './ChoiceToggle';
 export * from './ComparisonCard';
 export * from './ComparisonCardGroup';
 export * from './Container';
