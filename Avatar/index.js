@@ -1,2 +1,2 @@
-"use client";import e from"react";var a="base__YNkBW__0-1-24";const t=({imageUrl:t})=>e.createElement("div",{className:a},e.createElement("img",{src:t,alt:"avatar"}));export{t as Avatar};
+"use client";import e from"react";var a="base__YNkBW__0-1-28";const t=({imageUrl:t})=>e.createElement("div",{className:a},e.createElement("img",{src:t,alt:"avatar"}));export{t as Avatar};
 //# sourceMappingURL=index.js.map

@@ -14,6 +14,7 @@ export interface PhoneProps extends Omit<AriaTextFieldProps, 'errorMessage'> {
     selectName?: string;
     selectPlaceholder?: string;
     selectDefaultSelectedKey?: string;
+    isNonModal?: boolean;
 }
 declare const Phone: (props: PhoneProps) => React.JSX.Element;
 export default Phone;

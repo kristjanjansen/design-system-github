@@ -38,6 +38,7 @@ export * from './SkipToContent';
 export * from './Stack';
 export * from './Step';
 export * from './StepGroup';
+export * from './Stepper';
 export * from './SubmissionMessage';
 export * from './Switch';
 export * from './Tab';
