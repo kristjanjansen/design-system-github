@@ -5,6 +5,7 @@ export interface BannerProps {
     icon?: ReactNode;
     inverted?: boolean;
     accent?: boolean;
+    className?: string;
     children?: ReactNode;
     layout: 'column' | 'row';
 }
