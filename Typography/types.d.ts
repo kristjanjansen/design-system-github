@@ -16,16 +16,17 @@ export type TypographySettings = {
 export type HeadingProps = {
     id?: string;
     variant: HeadingVariant;
-    children: React.ReactNode;
+    children?: React.ReactNode;
     as?: React.ElementType;
     className?: string;
     italic?: boolean;
     underline?: boolean;
     weight?: '400' | '600';
     uppercase?: boolean;
+    dangerouslySetInnerHTML?: any;
 };
 export type TextProps = {
-    children: React.ReactNode;
+    children?: React.ReactNode;
     variant?: TextVariant;
     size?: TextSize;
     as?: React.ElementType;
@@ -35,6 +36,7 @@ export type TextProps = {
     underline?: boolean;
     weight?: '400' | '600';
     uppercase?: boolean;
+    dangerouslySetInnerHTML?: any;
 };
 export type LabelProps = {
     id?: string;

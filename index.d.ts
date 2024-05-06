@@ -24,6 +24,7 @@ export * from './ImageSection';
 export * from './InfoHint';
 export * from './InputSlider';
 export * from './Link';
+export * from './List';
 export * from './Modal';
 export * from './Notification';
 export * from './PageTitle';
