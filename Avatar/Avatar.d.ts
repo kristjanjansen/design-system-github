@@ -1,5 +1,5 @@
 import React from 'react';
 export interface AvatarProps {
-    imageUrl: string;
+    children: React.ReactNode;
 }
 export declare const Avatar: React.FC<AvatarProps>;
