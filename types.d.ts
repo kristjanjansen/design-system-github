@@ -5,4 +5,4 @@ export interface MarginProps {
     my?: MarginValue;
 }
 export type DescriptionSeverity = 'regular' | 'warning';
-export type Background = 'main' | 'alternative';
+export type Background = 'main' | 'alternative' | 'image';

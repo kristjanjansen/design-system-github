@@ -4,5 +4,6 @@ export interface PageTitleProps {
     children: React.ReactNode;
     className?: string;
     background?: Background;
+    imageUrl?: string;
 }
-export declare const PageTitle: ({ children, className, background, ...rest }: PageTitleProps) => React.JSX.Element;
+export declare const PageTitle: ({ children, className, background, imageUrl, ...rest }: PageTitleProps) => React.JSX.Element;

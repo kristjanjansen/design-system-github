@@ -4,6 +4,5 @@ export interface ComparisonCardOfferProps {
     title?: string;
     description?: string;
     infoHint?: React.ReactNode;
-    ref?: any;
 }
-export declare const ComparisonCardOffer: React.FC<ComparisonCardOfferProps>;
+export declare const ComparisonCardOffer: React.ForwardRefExoticComponent<ComparisonCardOfferProps & React.RefAttributes<HTMLDivElement>>;

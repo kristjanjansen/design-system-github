@@ -23,7 +23,9 @@ export type HeadingProps = {
     underline?: boolean;
     weight?: '400' | '600';
     uppercase?: boolean;
-    dangerouslySetInnerHTML?: any;
+    dangerouslySetInnerHTML?: {
+        __html: string | TrustedHTML;
+    };
 };
 export type TextProps = {
     children?: React.ReactNode;
@@ -36,7 +38,9 @@ export type TextProps = {
     underline?: boolean;
     weight?: '400' | '600';
     uppercase?: boolean;
-    dangerouslySetInnerHTML?: any;
+    dangerouslySetInnerHTML?: {
+        __html: string | TrustedHTML;
+    };
 };
 export type LabelProps = {
     id?: string;

@@ -4,6 +4,7 @@ export interface HeroProps extends Omit<HTMLAttributes<HTMLElement>, 'className'
     heading: string;
     description: string;
     children?: ReactNode;
+    className?: string;
 }
 export declare const Hero: React.FC<HeroProps>;
 export default Hero;

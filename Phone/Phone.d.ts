@@ -4,6 +4,7 @@ import type { DescriptionSeverity } from '../types';
 type AreaCode = {
     code: string;
     country: string;
+    key: string;
 };
 export interface PhoneProps extends Omit<AriaTextFieldProps, 'errorMessage'> {
     errorMessage?: string;
